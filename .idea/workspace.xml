@@ -13,6 +13,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -27,6 +30,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/var/www/html/bmgl/blog-makeifly/SQL FIle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755680766350</updated>
       <workItem from="1755680768244" duration="100000" />
-      <workItem from="1755680975483" duration="10424000" />
+      <workItem from="1755680975483" duration="11367000" />
     </task>
     <servers />
   </component>
