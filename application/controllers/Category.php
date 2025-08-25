@@ -11,12 +11,17 @@ class Category extends CI_Controller {
 	}
 
 	public function index($id)
-	{   
-		 $data['category']=$this->Website_model->categoryList();
-		 $data['resentlypost']=$this->Website_model->resentlypost();
-		// $data['viewdetails']=$this->Website_model->getnewsubdetailscat();
-		$data['getwebsitedetailscategory']=$this->Website_model->getwebsitedetailscategory($id);
-        $this->load->view('category',$data);
+	{
+        if ($id==0){
+            redirect('Welcome');
+        } else {
+            $data['category']=$this->Website_model->categoryList();
+            $data['resentlypost']=$this->Website_model->resentlypost();
+            // $data['viewdetails']=$this->Website_model->getnewsubdetailscat();
+            $data['getwebsitedetailscategory']=$this->Website_model->getwebsitedetailscategory($id);
+            $this->load->view('category',$data);
+        }
+
 	}
 	
 	

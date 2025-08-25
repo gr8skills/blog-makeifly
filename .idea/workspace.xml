@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b476516c-3059-4c0f-80f1-ea8ff433db31" name="Changes" comment="" />
+    <list default="true" id="b476516c-3059-4c0f-80f1-ea8ff433db31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/welcome_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/welcome_message.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +38,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
     "last_opened_file_path": "/var/www/html/bmgl/blog-makeifly/SQL FIle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,7 +73,11 @@
       <option name="presentableId" value="Default" />
       <updated>1755680766350</updated>
       <workItem from="1755680768244" duration="100000" />
-      <workItem from="1755680975483" duration="11367000" />
+      <workItem from="1755680975483" duration="13882000" />
+      <workItem from="1755780992915" duration="1749000" />
+      <workItem from="1755842728543" duration="599000" />
+      <workItem from="1755866814881" duration="604000" />
+      <workItem from="1756110931020" duration="2496000" />
     </task>
     <servers />
   </component>

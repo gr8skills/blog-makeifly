@@ -122,10 +122,10 @@
                   $cnt=1;
                   foreach($category as $row):
                   ?>
-                                <div class="col-sm-6">
+                                <div class="col-sm-4">
                                     <ul class="list-unstyled mb-0">
                                     <?php $cat= $row->name;?>
-                                    <li> <?php echo anchor("Category/index/{$row->id}",$cat); ?></li>
+                                    <li class="badge-info"> <?php echo anchor("Category/index/{$row->id}",$cat); ?></li>
                                     </ul>
                                 </div>
                                 <?php 
