@@ -25,13 +25,14 @@
                         <li><a class="waves-effect waves-dark" href="<?php echo base_url('admin/Category/managesubcategory'); ?>"><i class="icon-arrow-right"></i> Manage Sub Category</a></li>
                     </ul>
                 </li>
-                <li class="treeview"><a class="waves-effect waves-dark" href="#!"><i class="icon-docs"></i><span>Blog Posts</span><i class="icon-arrow-down"></i></a>
+                <?php $seg2 = strtolower($this->uri->segment(2)); ?>
+                <li class="treeview <?php echo in_array($seg2, array('news','featured_news')) ? 'active' : ''; ?>"><a class="waves-effect waves-dark" href="#!"><i class="icon-docs"></i><span>Blog Posts</span><i class="icon-arrow-down"></i></a>
                     <ul class="treeview-menu">
-                        <li class="treeview"><a href="<?php echo base_url('admin/News/add'); ?>"><i class="icon-arrow-right"></i><span> Add Post</span><i class="icon-arrow-down"></i></a>
-                         </li>
+                        <li class="treeview"><a href="<?php echo base_url('admin/News/add'); ?>"><i class="icon-arrow-right"></i><span> Add Post</span><i class="icon-arrow-down"></i></a></li>
                         
                         <li><a class="waves-effect waves-dark" href="<?php echo base_url('admin/News/managenews'); ?>" target="_blank"><i class="icon-arrow-right"></i> Manage Posts</a></li>
-                      
+                        
+                        <li <?php echo ($seg2 === 'featured_news') ? 'class="active"' : ''; ?>><a class="waves-effect waves-dark" href="<?php echo site_url('admin/Featured_news/index'); ?>"><i class="icon-arrow-right"></i> Featured News</a></li>
                         
                     </ul>
                 </li>

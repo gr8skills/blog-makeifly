@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b476516c-3059-4c0f-80f1-ea8ff433db31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8931eb4f-3e2f-40be-bd25-d5004bad202c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8931eb4f-3e2f-40be-bd25-d5004bad202c.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/SQL FIle" />
-      <recent name="$PROJECT_DIR$/assets/plugins" />
-      <recent name="$PROJECT_DIR$/assets/plugins/editor" />
     </key>
   </component>
   <component name="SharedIndexes">
